@@ -4,7 +4,7 @@ chown -R mysql:mysql /var/lib/mysql
 sleep 5
 echo `service mysql status`
 
-mysql -uroot -proot < /root/init.sql
+mysql -uroot -proot < /tmp/init.sql
 
 rm -rf /root/init.sql
 rm -rf /tmp/init_db.sh
