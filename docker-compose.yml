@@ -1,0 +1,11 @@
+# QWB 2019 Upload
+
+version: "2"
+
+services:
+
+  web:
+    image: glzjin/qwb_2019_upload
+    restart: always
+    ports:
+      - "127.0.0.1:8302:80"
