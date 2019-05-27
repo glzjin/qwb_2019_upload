@@ -9,3 +9,5 @@ services:
     restart: always
     ports:
       - "127.0.0.1:8302:80"
+    environment:
+      - FLAG=flag{glzjin_wants_a_girl_firend}
